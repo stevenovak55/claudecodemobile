@@ -3,14 +3,14 @@ import {SafeAreaProvider} from 'react-native-safe-area-context';
 import {NavigationContainer} from '@react-navigation/native';
 import {ThemeProvider} from './context/ThemeContext';
 import AppNavigator from './navigation/AppNavigator';
-import {StatusBar} from 'react-native';
+import {StatusBar} from 'expo-status-bar';
 
 const App = () => {
   return (
     <SafeAreaProvider>
       <ThemeProvider>
         <NavigationContainer>
-          <StatusBar barStyle="dark-content" />
+          <StatusBar style="auto" />
           <AppNavigator />
         </NavigationContainer>
       </ThemeProvider>

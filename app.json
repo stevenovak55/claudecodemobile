@@ -1,4 +1,21 @@
 {
-  "name": "MobileApp",
-  "displayName": "Mobile App Framework"
+  "expo": {
+    "name": "Mobile App Framework",
+    "slug": "mobile-app-framework",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mobileappframework.app"
+    },
+    "android": {
+      "package": "com.mobileappframework.app"
+    }
+  }
 }
