@@ -1,3 +1,9 @@
-import App from './src/App';
+import { Text, View } from 'react-native';
 
-export default App;
+export default function App() {
+  return (
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Text>Hello from Expo!</Text>
+    </View>
+  );
+}
